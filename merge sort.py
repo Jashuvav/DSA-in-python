@@ -44,3 +44,9 @@ def merge(left,right):
 arr=list(map(int,input("enter ele:").split()))
 sorted_arr=merge_sort(arr)
 print(sorted_arr)
+#dry run:
+
+#arr=[15,5,24,8,1,3,16,10,20]
+#mid=4
+#left=[15,5,24,8]
+#right=[1,3,16,10,20]
