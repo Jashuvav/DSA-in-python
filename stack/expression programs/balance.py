@@ -17,10 +17,3 @@ else:
         print("Balanced parentheses")
     else:
         print("Unbalanced parentheses")
-
-# Implement a stack using an array. Your stack should support the following operations: push, pop, and isEmpty.
-class Stack{
-    Constructor(){
-        this.stack = [];
-    }
-}
