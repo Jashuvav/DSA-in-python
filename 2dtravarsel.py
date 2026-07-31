@@ -30,7 +30,7 @@ while top<=bottom and left<=right:
       num += 1
    bottom -= 1
    #bottom -> top (left)
-   for i in range(bottom, top-1, -1):
+   for i in range(bottom, top-1, -1)
       matrix[i][left] = num
       num += 1
    left += 1
