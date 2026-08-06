@@ -1,5 +1,5 @@
 '''program to find the maximum element in an array without using built-in functions'''
-'''arr=list(map(int,input("Enter the array elements: ").split()))
+arr=list(map(int,input("Enter the array elements: ").split()))
 max_element=arr[0]
 for num in arr:
     if num>max_element:
@@ -8,7 +8,7 @@ print(f"The maximum element in the array is: {max_element}")'''
 
 
 '''program to find the maximum element in an 2D array '''
-'''rows=int(input("Enter the number of rows: "))
+rows=int(input("Enter the number of rows: "))
 cols=int(input("Enter the number of columns: "))
 matrix=[]
 for i in range(rows):
